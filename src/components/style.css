@@ -1,0 +1,147 @@
+body {
+  background-color: #23252c;
+  width: 400px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 20px;
+  background-color: #1a1b21;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.profile-image {
+  width: 400px;
+  height: 317px;
+  border-radius: 10px;
+}
+.Name {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.F-Dev {
+  font-size: small;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+}
+.gmail {
+  color: #f5f5f5;
+  font-size: small;
+  margin-top: -0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+.email-icon {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/email.png");
+  background-repeat: no-repeat;
+  width: 145px;
+  height: 45px;
+  background-position: 30%;
+  border-radius: 10px;
+  padding-left: 30px;
+  font-weight: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
+.link-icon {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  background-image: url("../images/link.png");
+  background-repeat: no-repeat;
+  width: 145px;
+  height: 45px;
+  background-position: 25%;
+  border-radius: 10px;
+  padding-left: 30px;
+  background-color: #5093e2;
+  color: white;
+  font-weight: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-headng,
+.Interest-heading {
+  color: white;
+  display: flex;
+  padding-left: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.about-para,
+.inters-detail {
+  margin-top: -12px;
+  color: white;
+  display: flex;
+  padding-left: 3rem;
+  font-family: none;
+  font-size: large;
+  max-width: 320px;
+  padding-top: 0.5rem;
+  word-spacing: 2px;
+  line-height: 1.5rem;
+}
+.Interest-heading {
+  margin-top: -2px;
+  margin-bottom: 1rem;
+}
+.footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #151516;
+  height: 60px;
+  border-radius: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 35px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
+.inters-detail {
+  margin-bottom: 2rem;
+}
+.fa-facebook:hover,
+.fa-twitter:hover {
+  color: #5093e2;
+}
+.fa-instagram:hover {
+  color: #e4334b;
+}
+.fa-github:hover {
+  color: #c7c7c7;
+}
+.email-icon:hover {
+  background-color: rgb(52, 168, 83);
+  border: none;
+}
+.link-icon:hover {
+  background-color: rgb(52, 168, 83);
+  border: none;
+}
